@@ -12,10 +12,13 @@ public class Main {
 		semaphoreBinaire sem = new semaphoreBinaire(1);
 		Affichage TA = new Affichage("AAA", sem);
 		Affichage TB = new Affichage("BB", sem);
+		Affichage TT = new Affichage("TTT",sem);
 
 		TB.start();
 
 		TA.start();
+		
+		TT.start();
 	}
 
 }

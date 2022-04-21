@@ -1,4 +1,4 @@
-package tp3;
+package tp2bis;
 
 public class semaphoreGeneral extends semaphore{
 

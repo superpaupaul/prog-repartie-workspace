@@ -1,4 +1,4 @@
-package tp3;
+package tp2bis;
 
 import java.awt.Color;
 import java.awt.Graphics;

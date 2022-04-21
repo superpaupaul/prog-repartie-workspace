@@ -1,4 +1,4 @@
-package tp3;
+package tp2bis;
 
 public final class semaphoreBinaire extends semaphore {
 public semaphoreBinaire(int valeurInitiale){

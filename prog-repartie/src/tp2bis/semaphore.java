@@ -1,4 +1,4 @@
-package tp3;
+package tp2bis;
 public abstract class semaphore {
 
     protected int valeur=0;

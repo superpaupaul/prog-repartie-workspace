@@ -1,4 +1,4 @@
-package tp3;
+package tp2bis;
 
 import javax.swing.JFrame;
 import javax.swing.WindowConstants;

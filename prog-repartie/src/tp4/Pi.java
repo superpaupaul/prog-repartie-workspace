@@ -16,8 +16,11 @@ public class Pi
     public static void main(String[] args) throws Exception 
     {
 	long total=0;
+	int k = 4;
+	int nbPoints = (int)(16 * (Math.pow(10, k)));
+	int nbProc = 1;
 	// 10 workers, 50000 iterations each
-	total = new Master().doRun(50000, 10);
+	total = new Master().doRun(nbPoints, nbProc);
 	System.out.println("total from Master = " + total);
     }
 }
